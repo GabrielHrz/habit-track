@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<x-layout>
+    <main class="py-4">
+        <h1>Veja seus habitos ganharem vida</h1>
+    </main>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    @vite('resources/css/app.css')
-    <title>{{ config('app.name') }}</title>
-</head>
-
-<body>
-    <h1 class="text-2xl font-bold text-blue-500">Welcome to the Home Page</h1>
-</body>
-
-</html>
+</x-layout>
